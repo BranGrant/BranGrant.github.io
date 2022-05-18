@@ -1,0 +1,50 @@
+:root{
+    --primary: #ff867a;
+    --primaryDark: #7ba081;
+    --primaryLight: #ddffe2;
+
+}
+.name{
+  background-color: var(    --primary);
+  font-family: "copper black"
+
+}
+
+
+.display-2 {
+
+  font-size: 30px;
+}
+
+
+div {
+  font-size: 20px;
+}
+
+
+footer {
+  font-size: 20px;
+}
+
+
+.footer{
+background-color: var(--primaryDark);
+
+}
+
+.col-lg3{
+  border:solid blue;
+
+}
+
+.social{
+border:solid red:
+
+
+}
+
+#grad1 {
+  height: 200px;
+  background-color: blue;
+  background-image: linear-gradient(to bottom right, yellow, blue);
+}
