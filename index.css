@@ -1,0 +1,98 @@
+:root{
+    --primary: #ff867a;
+    --primaryDark: #7ba081;
+    --primaryLight: #ddffe2;
+
+}
+.name{
+  background-color: var(    --primary);
+  font-family: "copper black"
+
+}
+
+
+.display-2 {
+
+  font-size: 30px;
+}
+
+
+div {
+  font-size: 20px;
+}
+
+
+footer {
+  font-size: 20px;
+}
+
+
+.footer{
+background-color: var(--primaryDark);
+
+}
+
+.col-lg3{
+  border:solid blue;
+
+}
+
+.social{
+border:solid red:
+
+
+}
+
+#grad1 {
+  height: 200px;
+  background-color: blue;
+  background-image: linear-gradient(to bottom right, yellow, blue);
+}
+
+.major, .department{
+  text-align: center;
+  display: block;
+  animation: slidesubtitle 5s forwards;
+  animation-timing-function: ease-in;
+  overflow: hidden;
+}
+@keyframes slidesubtitle {
+  0%{transform: scale(0); opacity: 0;}
+  50%{transform: scale(0.5);}
+  100%{transform: scale(1); opacity: 1;}
+}
+.title{
+animation: slideLeftRight 2s forwards;
+animation-timing-function: ease-in;
+}
+@keyframes slideLeftRight {
+  from{transform: translateX(-100%);}
+  to{transform: translateX(0%);}
+}
+@keyframes slideRightLeft {
+  from{transform: translateX(100%);}
+  to{transform: translateX(0%);}
+}
+/* -- Footer --*/
+.footer{
+  background-color: var(--primary);
+}
+.ptitle1, .ptitle2{
+  background-color: var(--primaryDark);
+  padding: 0.10em;
+}
+.card{
+  height: 705px;
+  box-shadow: 5px -2px 100px lightblue;
+}
+.Facebook, .Tiktok{
+  width: 50px;
+}
+.prcard{
+animation: invert 3s infinite;
+animation-direction: alternate;
+}
+@keyframes invert {
+  0%{filter: invert(0%);}
+  100%{filter: invert(100%);}
+}
